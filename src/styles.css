@@ -1,0 +1,34 @@
+.App {
+    font-family: sans-serif;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  
+  .button_list {
+    display: flex;
+    gap: 8px;
+    padding: 8px;
+  }
+  
+  .todo_list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    padding: 8px;
+  }
+  
+  .todo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  
+  .todo__checkbox {
+    display: block;
+  }
+  
+  .todo__input {
+    flex-grow: 2;
+    padding: 4px 8px;
+  }
+  
